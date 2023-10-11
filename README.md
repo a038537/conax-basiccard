@@ -6,7 +6,7 @@ burn .img file to basiccard with Omnikey 3021 SCPC reader
 
 Personalize Card with:
 
-conax.exe --port COM1 --ppua 1234567890 --ppsa 900000 --pass D7BgaTjL2vUIPhud
+conax.exe --port COM1 --ppua 1234567890 --ppsa 999999 --pass D7BgaTjL2vUIPhud
 
 D7BgaTjL2vUIPhud = my own password
 
