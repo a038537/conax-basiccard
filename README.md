@@ -1,12 +1,14 @@
 Conax compatible smart card using BasicCard ZC5.x
 
-burn .img file to basiccard with 
+burn .img file to basiccard with Omnikey 3021 SCPC reader
 
-"BCLoad.exe card.img -P100 -ST"
+"BCLoad.exe conax_0b00.IMG -P100 -ST"
 
 Personalize Card with:
 
-conax.exe --port COM1 --ppua 1234567890 --ppsa 123456 --pass test
+conax.exe --port COM1 --ppua 1234567890 --ppsa 123456 --pass D7BgaTjL2vUIPhud
+
+D7BgaTjL2vUIPhud = my own password
 
 put it in your CI and do an onboarding within CAS-System 
 
